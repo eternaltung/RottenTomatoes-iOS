@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  RottenTomatoes
 //
 //  Created by Shih-Ming Tung on 6/12/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DetailViewController : UIViewController
+@property NSDictionary *movie;
 @end
-
