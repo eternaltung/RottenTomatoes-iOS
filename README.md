@@ -24,7 +24,10 @@ Time spent: 10hr
 * [x] Add Grid view(UICollectionView) to show the result of searching.
 
 ### Walkthrough
-![Video Walkthrough]()
+![Video Walkthrough](Demo.gif)
+
+Network Error
+![Video Walkthrough](network.gif)
 
 Credits
 ---------
