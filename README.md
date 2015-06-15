@@ -27,6 +27,7 @@ Time spent: 10hr
 ![Video Walkthrough](Demo.gif)
 
 Network Error
+
 ![Video Walkthrough](network.gif)
 
 Credits
