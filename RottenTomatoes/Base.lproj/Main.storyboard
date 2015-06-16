@@ -98,7 +98,7 @@
                                     <outlet property="CriticsScoreLabel" destination="CVb-TJ-BI7" id="1Wt-fK-Cdh"/>
                                     <outlet property="PosterImg" destination="xB5-i9-QwR" id="uiZ-RS-kI3"/>
                                     <outlet property="TitleLabel" destination="HPS-aX-N09" id="HQB-BP-Umq"/>
-                                    <segue destination="DRK-QK-SCw" kind="show" id="Ahf-Yf-Pga"/>
+                                    <segue destination="DRK-QK-SCw" kind="show" identifier="" id="Ahf-Yf-Pga"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -195,14 +195,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="609"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TK7-vr-oCa">
-                                <rect key="frame" x="0.0" y="403" width="375" height="200"/>
+                                <rect key="frame" x="0.0" y="403" width="375" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="desc" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJq-Mz-ykg">
-                                        <rect key="frame" x="15" y="49" width="355" height="143"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V33-sz-4YT">
                                         <rect key="frame" x="15" y="8" width="352" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -220,7 +214,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="BackgroundImg" destination="sR5-8o-X8S" id="H5M-jz-ZJp"/>
-                        <outlet property="DescLabel" destination="lJq-Mz-ykg" id="mWy-3p-N2c"/>
+                        <outlet property="detailTextView" destination="TK7-vr-oCa" id="zvS-kD-4XW"/>
                         <outlet property="titleLabel" destination="V33-sz-4YT" id="nEc-EN-Fz0"/>
                     </connections>
                 </viewController>
